@@ -1,18 +1,16 @@
 // Get the modal
-			//var modal = document.getElementById('wingModal');
+			var modal = document.getElementById('wingModal');
 			//var modal = document.getElementByClassName('wModal');
 			// Get the button that opens the modal
-			//var btn = document.getElementById("wing");
+			var btn = document.getElementById("wing");
 			//var btn = document.getElementByClassName("wbutton");
 			// Get the <span> element that closes the modal
 			//var span = document.getElementsByClassName("wclose")[0];
 			//var span = document.getElementById('wingClose');
 			// When the user clicks the button, open the modal 
-			//btn.onclick = function() {
+			btn.onclick = wfunction() {
     			//	modal.style.display = "block";
-			//}
-			$('#wing').onclick = function() {
-				//$('#wingModal').style.display = "block";
+
 				alert("Hello"); }
 
 			// When the user clicks on <span> (x), close the modal
