@@ -12,7 +12,8 @@
     			//	modal.style.display = "block";
 			//}
 			$('#wing').onclick = function() {
-				$('#wingModal').style.display = "block";
+				//$('#wingModal').style.display = "block";
+				alert("Hello"); }
 
 			// When the user clicks on <span> (x), close the modal
 			//span.onclick = function() {
@@ -20,7 +21,7 @@
 			//}
 				
 			$('#wingClose').onclick = function () {
-				$('#wingModal').style.display = "none";
+				$('#wingModal').style.display = "none"; }
 				
 			// When the user clicks anywhere outside of the modal, close it
 			//window.onclick = function(event) {
