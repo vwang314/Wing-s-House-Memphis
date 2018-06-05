@@ -144,7 +144,7 @@
 		
 		<img src="grill icon.jpg" width=40%><br><br>
 		
-		<button class="button" id="grill"><h3>See Grill Menu test</h3></button>
+		<button class="button" id="grill"><h3>See Grill Menu</h3></button>
 		<div id="grillModal" class="modal">
 
   			<!-- Modal content -->
@@ -164,7 +164,7 @@
 			//var span = document.getElementsByClassName("close")[0];
 			// When the user clicks the button, open the modal 
 			$("#grill").onclick = function() {
-    				$(this).next().style.display = "block";
+    				$("#grillModal").style.display = "block";
 			}
 			// When the user clicks on <span> (x), close the modal
 			$("#grillClose").onclick = function() {
