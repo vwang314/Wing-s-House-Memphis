@@ -36,7 +36,7 @@
 			color: #FFFACD;
 		}
 		
-		.wbutton, .gbutton {
+		.wbutton, .gbutton, .lbutton {
     			background-color: #FF8C00;
     			border-radius: 8px;
     			padding: 10px 10px;
@@ -46,7 +46,7 @@
     			font-size: 16px;
 		}
 		
-		.wbutton:hover, .gbutton:hover {
+		.wbutton:hover, .gbutton:hover, .lbutton:hover {
     				box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     				background-color: #4CAF50;
 		}
@@ -102,46 +102,51 @@
 	<center>
 		<h1><font size="8">Wing's House Menu</font></h1><br><br>
 		
-		<img src="wing icon.jpg" width=40%><br><br>
+		<div id="wing section">
+			<img src="wing icon.jpg" width=40%><br><br>
 		
-		<button class="wbutton" id="wing"><h3>See Wings Menu</h3></button>
+			<button class="wbutton" id="wing"><h3>See Wings Menu</h3></button>
 		
-		<!-- The Modal -->
-		<div id="wingModal" class="wmodal">
+			<!-- The Modal -->
+			<div id="wingModal" class="wmodal">
 
-  			<!-- Modal content -->
-  			<div class="wmodal-content">
-    				<span class="wclose" id="wingClose">&times;</span>
-    				<img src="wing menu.JPG" width=90%>
-  			</div>
+  				<!-- Modal content -->
+  				<div class="wmodal-content">
+    					<span class="wclose" id="wingClose">&times;</span>
+					<img src="wing menu.JPG" width=90%>
+  				</div>
 
+			</div>
+		
+			<script src="wing.js"></script>
 		</div>
 		
-		<script src="wing.js"></script>
 		
 		<br><br><br>
 		
-		<img src="grill icon.jpg" width=40%><br><br>
+		<div id="grill section">
+			<img src="grill icon.jpg" width=40%><br><br>
 		
-		<button class="gbutton" id="grill"><h3>See Grill Menu</h3></button>
+			<button class="gbutton" id="grill"><h3>See Grill Menu</h3></button>
 		
-		<!-- The Modal -->
-		<div id="grillModal" class="gmodal">
+			<!-- The Modal -->
+			<div id="grillModal" class="gmodal">
 
-  			<!-- Modal content -->
-  			<div class="gmodal-content">
-    				<span class="gclose" id="grillClose">&times;</span>
-    				<img src="grill menu.JPG" width=90%>
-  			</div>
+  				<!-- Modal content -->
+  				<div class="gmodal-content">
+    					<span class="gclose" id="grillClose">&times;</span>
+    					<img src="grill menu.JPG" width=90%>
+  				</div>
 
-		</div>
-		<script src="grill.js"></script>
+			</div>
+			<script src="grill.js"></script>
+		</div>		
 		
 		<br><br><br>
 		
 		<img src="lunch special icon.jpg" width=40%><br><br>
 		
-		<button class="button" id="lunch">
+		<button class="lbutton" id="lunch">
 		<h3>See Lunch Specials</h3>
 		</button>
 		
