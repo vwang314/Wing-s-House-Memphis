@@ -148,6 +148,39 @@
 		<h3>See Grill Menu</h3>
 		</button>
 		
+		<!-- The Modal -->
+		<div id="grillModal" class="modal">
+
+  			<!-- Modal content -->
+  			<div class="modal-content">
+    				<span class="close" id="grillClose">&times;</span>
+    				<img src="grill menu.JPG" width=90%>
+  			</div>
+
+		</div>
+		
+		<script>
+			// Get the modal
+			//var modal = document.getElementById('wingModal');
+			// Get the button that opens the modal
+			//var btn = document.getElementById("wing");
+			// Get the <span> element that closes the modal
+			//var span = document.getElementsByClassName("close")[0];
+			// When the user clicks the button, open the modal 
+			$("grill").onclick = function() {
+    				$("grillModal").style.display = "block";
+			}
+			// When the user clicks on <span> (x), close the modal
+			$("grillClose").onclick = function() {
+    				$("grillModal").style.display = "none";
+			}
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+    				if (event.target == $("grillModal")) {
+        			$("grillModal").style.display = "none";
+    				}
+			}
+		</script>
 		
 		<br><br><br>
 		
