@@ -36,7 +36,7 @@
 			color: #FFFACD;
 		}
 		
-		.button {
+		.wbutton, .gbutton {
     			background-color: #FF8C00;
     			border-radius: 8px;
     			padding: 10px 10px;
@@ -46,13 +46,13 @@
     			font-size: 16px;
 		}
 		
-		.button:hover {
+		.wbutton:hover, .gbutton:hover {
     				box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     				background-color: #4CAF50;
 		}
 		
 		/* The Modal (background) */
-		.modal {
+		.wmodal, .gmodal {
     			display: none; /* Hidden by default */
     			position: fixed; /* Stay in place */
     			z-index: 1; /* Sit on top */
@@ -67,7 +67,7 @@
 		}
 
 		/* Modal Content */
-		.modal-content {
+		.wmodal-content, .gmodal-content {
     			background-color: #ffffff;
     			margin: auto;
     			padding: 5px;
@@ -76,14 +76,14 @@
 			}
 
 		/* The Close Button */
-		.close {
+		.wclose, .gclose {
     			color: #aaaaaa;
     			float: right;
     			font-size: 200%;
     			font-weight: bold;
 		}
 
-		.close:hover, .close:focus {
+		.wclose:hover, .wclose:focus, .gclose:hover, .gclose:focus {
     			color: #000;
     			text-decoration: none;
     			cursor: pointer;
@@ -104,14 +104,14 @@
 		
 		<img src="wing icon.jpg" width=40%><br><br>
 		
-		<button class="button" id="wing"><h3>See Wings Menu</h3></button>
+		<button class="wbutton" id="wing"><h3>See Wings Menu</h3></button>
 		
 		<!-- The Modal -->
-		<div id="wingModal" class="modal">
+		<div id="wingModal" class="wmodal">
 
   			<!-- Modal content -->
-  			<div class="modal-content">
-    				<span class="close" id="wingClose">&times;</span>
+  			<div class="wmodal-content">
+    				<span class="wclose" id="wingClose">&times;</span>
     				<img src="wing menu.JPG" width=90%>
   			</div>
 
@@ -123,14 +123,14 @@
 		
 		<img src="grill icon.jpg" width=40%><br><br>
 		
-		<button class="button" id="grill"><h3>See Grill Menu</h3></button>
+		<button class="gbutton" id="grill"><h3>See Grill Menu</h3></button>
 		
 		<!-- The Modal -->
-		<div id="grillModal" class="modal">
+		<div id="grillModal" class="gmodal">
 
   			<!-- Modal content -->
-  			<div class="modal-content">
-    				<span class="close" id="grillClose">&times;</span>
+  			<div class="gmodal-content">
+    				<span class="gclose" id="grillClose">&times;</span>
     				<img src="grill menu.JPG" width=90%>
   			</div>
 
