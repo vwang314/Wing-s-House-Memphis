@@ -16,13 +16,9 @@
   	display: inline-block;
     	color: white;
     	text-align: center;
-    	padding: 20em;
+    	padding: 4em;
     	text-decoration: none;
-	font-size: 2%;
-	left: 10em;
-	right 10em;
-	top:1em;
-	bottom: 1em;
+	font-size: 0.5em;
 }
 	
 .navbar .active {
