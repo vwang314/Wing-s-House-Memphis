@@ -52,7 +52,7 @@
 		}
 		
 		/* The Modal (background) */
-		.wmodal, .gmodal {
+		.wmodal, .gmodal, .lmodal {
     			display: none; /* Hidden by default */
     			position: fixed; /* Stay in place */
     			z-index: 1; /* Sit on top */
@@ -67,7 +67,7 @@
 		}
 
 		/* Modal Content */
-		.wmodal-content, .gmodal-content {
+		.wmodal-content, .gmodal-content, .lmodal-content {
     			background-color: #ffffff;
     			margin: auto;
     			padding: 5px;
@@ -76,14 +76,14 @@
 			}
 
 		/* The Close Button */
-		.wclose, .gclose {
+		.wclose, .gclose, .lclose {
     			color: #aaaaaa;
     			float: right;
     			font-size: 200%;
     			font-weight: bold;
 		}
 
-		.wclose:hover, .wclose:focus, .gclose:hover, .gclose:focus {
+		.wclose:hover, .wclose:focus, .gclose:hover, .gclose:focus, .lclose:hover, .lclose:focus {
     			color: #000;
     			text-decoration: none;
     			cursor: pointer;
@@ -176,7 +176,7 @@
 		<div id="lunch section">
 			<img src="lunch special icon.jpg" width=40%><br><br>
 		
-			<button class="lbutton" id="lunch">
+			<button class="lbutton" id="lunch" onclick="lfunction()">
 			<h3>See Lunch Specials</h3>
 			</button>
 			
