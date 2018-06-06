@@ -112,7 +112,7 @@
 
   				<!-- Modal content -->
   				<div class="wmodal-content">
-    					<span class="wclose" id="wingClose" onclick="wcfunction()">&times;</span>
+    					<span class="wclose" id="wingClose">&times;</span>
 					<img src="wing menu.JPG" width=90%>
   				</div>
 
@@ -173,11 +173,40 @@
 		
 		<br><br><br>
 		
-		<img src="lunch special icon.jpg" width=40%><br><br>
+		<div id="lunch section">
+			<img src="lunch special icon.jpg" width=40%><br><br>
 		
-		<button class="lbutton" id="lunch">
-		<h3>See Lunch Specials</h3>
-		</button>
+			<button class="lbutton" id="lunch">
+			<h3>See Lunch Specials</h3>
+			</button>
+			
+			<!-- The Modal -->
+			<div id="lunchModal" class="lmodal">
+
+  				<!-- Modal content -->
+  				<div class="lmodal-content">
+    					<span class="lclose" id="lunchClose" onclick="lcfunction()">&times;</span>
+					<img src="lunch special.jpg" width=50%>
+  				</div>
+
+			</div>
+			
+			<script>
+				var lmodal = document.getElementById('lunchModal');
+				var lbtn = document.getElementById("#lunch");
+				var lspan = document.getElementById('lunchClose');
+				function lfunction() { 
+    					document.getElementById('lunchModal').style.display = "block"; }
+				lspan.onclick = function() {
+    					document.getElementById('lunchModal').style.display = "none";
+				}
+				window.onclick = function(levent) {
+    					if (levent.target == lmodal) {
+        					lmodal.style.display = "none";
+    					}
+				}
+			
+			</script>
 		
 
 		
