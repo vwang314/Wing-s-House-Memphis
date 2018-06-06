@@ -69,6 +69,10 @@ table#t01 td:nth-child(odd) {
 	text-align: right;
 	}
 
+iframe#iframe1 {
+	width: 70%
+}
+
 iframe#iframe2 {
 	display: none;
 	width: 0px;
@@ -164,6 +168,7 @@ iframe#iframe2 {
 	}
 	
 	iframe#iframe2 {
+		display:block;
 		width: 100%;
 	}
 	
