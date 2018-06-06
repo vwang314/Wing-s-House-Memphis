@@ -16,9 +16,9 @@
   	display: inline-block;
     	color: white;
     	text-align: center;
-    	padding: 1%;
+    	padding: 1.2%;
     	text-decoration: none;
-	font-size: 0.05%;
+	font-size: 1%;
 }
 	
 .navbar .active {
@@ -110,7 +110,7 @@ table#t01 td:nth-child(odd) {
 }
 
 
-/*@media screen and (max-width: 10cm) { 
+@media screen and (max-width: 10cm) { 
 	.navbar {
 		list-style-type: none;
 		margin: 0;
@@ -129,9 +129,9 @@ table#t01 td:nth-child(odd) {
   		display: inline-block;
     		color: white;
     		text-align: center;
-    		padding: 0.3% 0.5%;
+    		padding: 0.5%;
     		text-decoration: none;
-		font-size: 1em
+		font-size: 0.5%;
 	}
 	
 	.navbar .active {
@@ -143,4 +143,4 @@ table#t01 td:nth-child(odd) {
 		color: #FFFACD;
 	}
 	
-} */
+}
