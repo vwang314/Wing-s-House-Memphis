@@ -62,7 +62,7 @@ table {
 
 th {
 	text-align: left;
-	font-size= 5em;
+	font-size= 15em;
 }
 		
 table#t01 td:nth-child(odd) {
