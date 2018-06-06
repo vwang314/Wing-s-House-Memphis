@@ -18,7 +18,7 @@
     	text-align: center;
     	padding: 1.2% 3%;
     	text-decoration: none;
-	font-size: 16px;
+	font-size: 16em;
 }
 	
 .navbar .active {
@@ -110,7 +110,7 @@ table#t01 td:nth-child(odd) {
 }
 
 
-@media screen and (max-width: 10cm) { 
+/*@media screen and (max-width: 10cm) { 
 	.navbar {
 		list-style-type: none;
 		margin: 0;
