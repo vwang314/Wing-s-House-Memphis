@@ -3,7 +3,7 @@
 	margin: 0;
     	padding: 0;
     	overflow: hidden;
-    	background-color: #333;
+    	background-color: #333333;
 	text-align:center;
 	position: fixed;
 	top: 0;
@@ -48,7 +48,7 @@
 .storeinfo {
 	color: #FFFFFF;
 	background-color: #333333;
-	height: 100%
+	width: 100%;
 	margin: 0;
 	padding: 0;
 	left:0;
@@ -169,7 +169,7 @@ iframe#iframe2 {
 	
 	iframe#iframe2 {
 		display:block;
-		width: 20em;
+		width: 16em;
 		height: 30em;
 	}
 	
