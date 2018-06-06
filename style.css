@@ -78,6 +78,10 @@ iframe#iframe2 {
 	display: none;
 }
 
+li {
+	font-size=3vw;
+}
+
 .wbutton, .gbutton, .lbutton {
   	background-color: #FF8C00;
     	border-radius: 8px;
