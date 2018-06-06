@@ -70,7 +70,7 @@ table#t01 td:nth-child(odd) {
 	}
 
 iframe#iframe1 {
-	width: 100%;
+	width: 20em;
 	height: 10em;
 }
 
