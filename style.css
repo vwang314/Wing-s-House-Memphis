@@ -18,7 +18,7 @@
     	text-align: center;
     	padding: 1.5%;
     	text-decoration: none;
-	font-size: 1em;
+	font-size: 1.2em;
 }
 	
 .navbar .active {
@@ -59,6 +59,11 @@ table {
 	font-size=2em;
 	font-family=helvetica;
 }
+
+th {
+	text-align: left;
+	font-size=
+}
 		
 table#t01 td:nth-child(odd) {
 	text-align: right;
@@ -67,11 +72,11 @@ table#t01 td:nth-child(odd) {
 .wbutton, .gbutton, .lbutton {
   	background-color: #FF8C00;
     	border-radius: 8px;
-    	padding: 10px 10px;
+    	padding: 1%;
     	text-align: center;
     	text-decoration: none;
     	display: inline-block;
-    	font-size: 16px;
+    	font-size: 2em;
 }
 		
 .wbutton:hover, .gbutton:hover, .lbutton:hover {
