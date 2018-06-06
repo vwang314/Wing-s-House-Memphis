@@ -110,7 +110,7 @@ table#t01 td:nth-child(odd) {
 }
 
 
-/*@media screen and (max-width: 1440px) { 
+@media screen and (max-width: 10cm) { 
 	.navbar {
 		list-style-type: none;
 		margin: 0;
@@ -131,7 +131,7 @@ table#t01 td:nth-child(odd) {
     		text-align: center;
     		padding: 0.3% 0.5%;
     		text-decoration: none;
-		font-size: 1px
+		font-size: 1em
 	}
 	
 	.navbar .active {
