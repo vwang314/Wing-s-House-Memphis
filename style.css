@@ -18,7 +18,7 @@
     	text-align: center;
     	padding: 1.2%;
     	text-decoration: none;
-	font-size: 1%;
+	font-size: 5%;
 }
 	
 .navbar .active {
@@ -131,7 +131,7 @@ table#t01 td:nth-child(odd) {
     		text-align: center;
     		padding: 0.5%;
     		text-decoration: none;
-		font-size: 0.5%;
+		font-size: 1%;
 	}
 	
 	.navbar .active {
