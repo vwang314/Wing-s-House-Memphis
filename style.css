@@ -70,8 +70,8 @@ table#t01 td:nth-child(odd) {
 	}
 
 iframe#iframe1 {
-	width: 40em;
-	height: 30em;
+	width: 50vw;
+	height: 60vh;
 }
 
 iframe#iframe2 {
@@ -169,8 +169,8 @@ iframe#iframe2 {
 	
 	iframe#iframe2 {
 		display:block;
-		width: 16em;
-		height: 30em;
+		width: 90vw;
+		height: 80vh;
 	}
 	
 }
