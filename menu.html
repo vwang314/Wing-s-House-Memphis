@@ -112,7 +112,7 @@
 
   				<!-- Modal content -->
   				<div class="wmodal-content">
-    					<span class="wclose" id="wingClose">&times;</span>
+    					<span class="wclose" id="wingClose" onclick="wcfunction()">&times;</span>
 					<img src="wing menu.JPG" width=90%>
   				</div>
 
@@ -139,7 +139,7 @@
     			//	modal.style.display = "none";
 			//}
 				
-			$('#wingClose').onclick = function () {
+			function wcfunction () {
 				$('#wingModal').style.display = "none"; }
 				
 			// When the user clicks anywhere outside of the modal, close it
