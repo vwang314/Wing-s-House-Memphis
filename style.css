@@ -54,6 +54,11 @@
 	left:0;
 	right:0;
 }
+
+table {
+	font-size=2em;
+	font-family=helvetica;
+}
 		
 table#t01 td:nth-child(odd) {
 	text-align: right;
@@ -110,7 +115,7 @@ table#t01 td:nth-child(odd) {
 }
 
 
-@media screen and (max-width: 10cm) { 
+@media screen and (max-width: 15cm) { 
 	.navbar {
 		list-style-type: none;
 		margin: 0;
