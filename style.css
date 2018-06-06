@@ -16,9 +16,9 @@
   	display: inline-block;
     	color: white;
     	text-align: center;
-    	padding: 4em;
+    	padding: 2em;
     	text-decoration: none;
-	font-size: 0.5em;
+	font-size: 0.1em;
 }
 	
 .navbar .active {
