@@ -129,9 +129,9 @@ table#t01 td:nth-child(odd) {
   		display: inline-block;
     		color: white;
     		text-align: center;
-    		padding: 0.5% 1%;
+    		padding: 0.3% 0.5%;
     		text-decoration: none;
-		font-size: 6px
+		font-size: 2px
 	}
 	
 	.navbar .active {
