@@ -148,9 +148,9 @@ iframe#iframe2 {
   		display: inline-block;
     		color: white;
     		text-align: center;
-    		padding: 1%;
+    		padding: 2%;
     		text-decoration: none;
-		font-size: 2%;
+		font-size: 3%;
 	}
 	
 	.navbar .active {
